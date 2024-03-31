@@ -4,6 +4,9 @@
 회원가입 성공 시
 ![signupSuccess](https://github.com/exceptionError-jin/hello-spring/assets/129862445/ea6612f7-ff98-422b-86a3-77ec87732ad2)
 
+회원가입 시 비밀번호 암호화
+![password](https://github.com/exceptionError-jin/hello-spring/assets/129862445/55654fd0-6109-45cf-888c-f4cf9420d421)
+
 회원가입 유효성 검사(이메일 중복 검사, 이메일&비밀번호 null 검사, 이메일 형식 검사, 비밀번호 유효성 검사(숫자, 문자 포함 8자리 이상), 비밀번호와 비밀번호 확인 일치 검사)
 ![signupEmail](https://github.com/exceptionError-jin/hello-spring/assets/129862445/7fdaba05-55a9-48c9-aa81-7537a20591db)
 
