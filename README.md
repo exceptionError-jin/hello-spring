@@ -27,3 +27,12 @@
   결제 취소 요청
   결제 취소 성공 시 응답
   결제 취소 실패 시 에러 응답
+
+
+
+회원 가입 화면
+![signup](https://github.com/exceptionError-jin/hello-spring/assets/129862445/f0ed5a9d-21b3-4307-895f-3430eeaa47e8)
+
+
+
+
