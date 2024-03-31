@@ -22,6 +22,7 @@
 
 회원정보 조회(토큰이 존재할 때만 조회 가능)
 ![userDetailSuccess](https://github.com/exceptionError-jin/hello-spring/assets/129862445/2337c3a5-6e32-4858-ab2e-f3cd5e4e19d9)
+![userDetailToken](https://github.com/exceptionError-jin/hello-spring/assets/129862445/367f21b6-8674-4fac-9977-7289edfedb14)
 
 회원정보 조회(토큰이 없을 경우)
 ![userDetailFailed](https://github.com/exceptionError-jin/hello-spring/assets/129862445/52a07a1c-246f-4e6d-ad1f-fa872af9ddeb)
