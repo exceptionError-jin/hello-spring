@@ -14,7 +14,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 @Slf4j
-@Controller
+@Controller //결제 페이지는 html로 구현하였기 때문에 Controller로 사용했습니다.
 @RequiredArgsConstructor
 public class PaymentController {
 

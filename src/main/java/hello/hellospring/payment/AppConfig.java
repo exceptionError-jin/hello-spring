@@ -1,5 +1,5 @@
 package hello.hellospring.payment;
-
+//결제 portone에 필요한 정보
 import com.siot.IamportRestClient.IamportClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,5 +1,5 @@
 package hello.hellospring.entity;
-//상품
+//결제
 
 import jakarta.persistence.*;
 import lombok.*;

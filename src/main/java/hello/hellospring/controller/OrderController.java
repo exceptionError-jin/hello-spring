@@ -32,7 +32,7 @@ public class OrderController {
         return "주문 등록 화면";
     }
 
-    @PostMapping("/order")
+    @PostMapping("/order") //주문시에도 토큰 검사함
     public ResponseEntity<Map<String, Object>> autoOrder(HttpServletRequest request, @RequestBody Map<String, Object> requestBody) {
         String token = jwtUtil.getJwtFromHeader(request);
 

@@ -30,7 +30,7 @@ public class OrderAndPaymentService {
     private final IamportClient iamportClient;
 
     public Orders autoOrder(User user) {
-        // 임시 결제내역 생성
+        // 임시 결제내역 생성 -> 일단 상품주문 값을 고정 시켰습니다.
         Payment payment = Payment.builder()
                 .price(100L)
                 .status(PaymentStatus.READY)
@@ -65,6 +65,7 @@ public class OrderAndPaymentService {
                 .build();
     }
 
+    //portone 결제 검증 관련 코드(보안문제)
     public IamportResponse<com.siot.IamportRestClient.response.Payment> paymentByCallback(PaymentCallbackRequest request) {
         try {
             // 결제 단건 조회(아임포트)
