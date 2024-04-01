@@ -14,14 +14,6 @@ public class User extends Base {
     @GeneratedValue(strategy = GenerationType.IDENTITY) //값 자동 증가
     private Long id;
 
-    // 유저가 삭제되면 주문정보도 삭제되는가?? 논의 해볼 필요 있음
-//    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true) // 하나의 유저는 여러개의 주문을 가짐
-//    private List<Orders> orders = new ArrayList<>();
-
-    // 위와 같음
-//    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true) //하나의 유저는 여러개의 환불을 가짐
-//    private List<Refund> refunds = new ArrayList<>();
-
     @Column(name = "user_name") // 유저 이름
     private String userName;
 

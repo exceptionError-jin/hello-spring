@@ -22,5 +22,15 @@ public class UserDto {
         dto.setStatus(user.getStatus());
         return dto;
     }
+
+    public User toUser() {
+        return User.builder()
+                .id(this.id)
+                .userName(this.userName)
+                .email(this.email)
+                .phone(this.phone)
+                .status(this.status)
+                .build();
+    }
 }
 
